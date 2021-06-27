@@ -6,5 +6,5 @@ function test_plugin_b_init() {
     return $output;
   }
 }
-add_action('init', 'test_plugin_b_dothing');
+add_action('init', 'test_plugin_b_init');
 ?>
